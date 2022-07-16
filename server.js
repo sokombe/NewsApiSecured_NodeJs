@@ -28,7 +28,7 @@ sequelize.initDb()
 
 // 0. The root end-point
 app.get("/",(req,res)=>{
-    res.json(`Hello dear user 👋! Welcome to our secured News Api!!!`)
+    res.json(`Hello dear user 😎! Welcome to our secured News Api!!!`)
 })
 
   // 1. user 

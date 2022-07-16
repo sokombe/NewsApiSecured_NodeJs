@@ -13,7 +13,7 @@ const UserModel = require('../models/userModel')
 // connexion à la bd
 const sequelize = new Sequelize(
     "newsDb",// db name
-    "postgres", //sgbd name
+    "postgres", //sgbd userName
     "lenovot430", //sgbd pw
     {
         host:"localhost",
